@@ -8584,7 +8584,7 @@ h1, h2, h3, h4, h5, h6,
   top: 100px;
   border-radius: 100%;
   background-color: #e67e22;
-  animation: 6s ease-in 1s infinite reverse both running ballanimation;
+  animation: 10s ease-in 1s infinite reverse both running ballanimation;
 }
 
 @keyframes ballanimation {
@@ -8593,7 +8593,7 @@ h1, h2, h3, h4, h5, h6,
   }
 
   50%{
-    transform: scale(2);
+    transform: scale(1.6);
   }
 
   to {
